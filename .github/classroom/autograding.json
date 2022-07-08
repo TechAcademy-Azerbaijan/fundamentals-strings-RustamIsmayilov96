@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "Task 1",
+      "setup": "npm install prompt",
+      "run": "node task-1/main.js",
+      "input": "31,15,40",
+      "output": "15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 2",
+      "setup": "npm install prompt",
+      "run": "node task-2/main.js",
+      "input": "328",
+      "output": "8",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 3 - Test 1",
+      "setup": "npm install prompt",
+      "run": "node task-3/main.js",
+      "input": "255222",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Task 3 - Test 2",
+      "setup": "npm install prompt",
+      "run": "node task-3/main.js",
+      "input": "525522",
+      "output": "=",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Task 4",
+      "setup": "npm install prompt",
+      "run": "node task-4/main.js",
+      "input": "Hello world! I learn to code.",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 5",
+      "setup": "npm install prompt",
+      "run": "node task-5/main.js",
+      "input": "+5-2+4-m/n*2:4",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 6",
+      "setup": "npm install prompt",
+      "run": "node task-6/main.js",
+      "input": "Hello world! Hello,    country!",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 7",
+      "setup": "npm install prompt",
+      "run": "node task-7/main.js",
+      "input": "kpkkp",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 8",
+      "setup": "npm install prompt",
+      "run": "node task-8/main.js",
+      "input": "introduction to algorithms",
+      "output": "Introduction To Algorithms",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 9",
+      "setup": "npm install prompt",
+      "run": "node task-9/main.js",
+      "input": "",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 10 - Test 1",
+      "setup": "npm install prompt",
+      "run": "node task-10/main.js",
+      "input": "I am programming on Javascript.",
+      "output": "1\r\n19",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Task 10 - Test 2",
+      "setup": "npm install prompt",
+      "run": "node task-10/main.js",
+      "input": "abrakadabra",
+      "output": "-1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
